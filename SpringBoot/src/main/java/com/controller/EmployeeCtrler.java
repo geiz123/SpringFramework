@@ -12,7 +12,7 @@ import com.dao.EmployeeDao;
 import com.entity.Employee;
 
 @RestController
-public class EmployeeController {
+public class EmployeeCtrler {
 
     @RequestMapping("/employees")
     public List<Employee> getAllEmployees() {
