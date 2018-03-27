@@ -21,8 +21,7 @@ public class SpringConfig {
         //ret.setUrl("jdbc:sqlite:/home/g/work/sqlite/testdb");
         //ret.setUrl("jdbc:sqlite:/home/g/Desktop/database/chinookrmd");
         
-        //ret.setUrl("jdbc:sqlite:C:\\Users\\VBACODOANH.VBA\\Downloads\\chinook.db");
-        ret.setUrl("jdbc:sqlite:chinook.db");
+        ret.setUrl("jdbc:sqlite:E:\\Work\\database\\sqlite\\chinook.db");
         ret.setDriverClassName("org.sqlite.JDBC");
         
         return ret;
